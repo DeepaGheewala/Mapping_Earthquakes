@@ -184,7 +184,8 @@ let baseMaps = {
 ## Summary
 A quick overview of all the functionality 
 <p align="center"> <img src="Images/Animation.gif"  align="center" height="400" width="1000"></p>
-[Click here](https://github.com/DeepaGheewala/Mapping_Earthquakes/blob/2f6c2c12adc6043e624b278e07567c9e53508468/Earthquake_Challenge/Images/Animation.gif) to view better quality gif - The colors are a bit changed in order to reduce the file size
+
+([Click Here](https://github.com/DeepaGheewala/Mapping_Earthquakes/blob/4d70ea7c9ddb0e18ec3dd1326c5edba6d96d27eb/Earthquake_Challenge/Images/Animation.gif)) to view better quality gif - The colors are a bit changed in order to reduce the file size
 
 ## Code Files
 1) [Index.html](https://github.com/DeepaGheewala/Mapping_Earthquakes/blob/3c43a2f0e1b76de190766e1fcbcf1afda63e8fb5/Earthquake_Challenge/index.html)
