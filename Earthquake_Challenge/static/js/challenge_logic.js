@@ -126,14 +126,15 @@ let legend = L.control({
 legend.onAdd = function() {
   let div = L.DomUtil.create("div", "info legend");
 
-  const magnitudes = [0, 1, 2, 3, 4, 5];
+  const magnitudes = [0, 1, 2, 3, 4, 5, 6];
   const colors = [
     "#98ee00",
     "#d4ee00",
     "#eecc00",
     "#ee9c00",
     "#ea822c",
-    "#ea2c2c"
+    "#ea2c2c",
+    "#990000"
   ];
 
 // Looping through our intervals to generate a label with a colored square for each interval.
@@ -200,12 +201,12 @@ let myStyle1 = {
   // This function determines the color of the marker based on the magnitude of the earthquake.
   function getColor(magnitude) {
     if (magnitude > 6) {
-      return "#ea2c2c";
+      return "#990000";
       }
       if (magnitude >= 5) {
-        return "#ea822c";
+        return "#ea2c2c";
       }
-      return "#ee9c00";       
+      return "#ea822c";       
 }
 
 
