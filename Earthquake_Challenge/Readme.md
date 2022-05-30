@@ -16,7 +16,7 @@ Here we should be able to see
 * Legend to show the earthquake magnitude
 
 <p align="center"> <img src="Images/Delivery1.jpg"  align="center" height="400" width="1000"></p>
-*Click on image to view good quality image*
+Click on image to view good quality image
 
 
 **Code to get above images:**
@@ -64,7 +64,8 @@ Major Earthquake data is plotted with darker shades .
 Added color code and legend for magnitude higher than 6
 
 <p align="center"> <img src="Images/Delivery2.jpg"  align="center" height="400" width="1000"></p>
-*Click on image to view good quality image*
+Click on image to view good quality image
+
 
 **Code**
 ```Python
@@ -161,7 +162,8 @@ majorEarthquakes.addTo(map);
 Added addtional Dark/Night view layer
 
 <p align="center"> <img src="Images/Delivery3.jpg"  align="center" height="400" width="1000"></p>
-*Click on image to view good quality image*
+Click on image to view good quality image
+
 
 **Code**
 ```python
@@ -182,6 +184,6 @@ let baseMaps = {
 ## Summary
 A quick overview of all the functionality 
 <p align="center"> <img src="Images/Animation.gif"  align="center" height="400" width="1000"></p>
-*Click on image to view good quality image*
+Click on image to view better quality gif - The colors are a bit changed in order to reduce the file size
 
 
