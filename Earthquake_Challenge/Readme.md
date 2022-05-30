@@ -18,7 +18,8 @@ Here we should be able to see
 <p align="center"> <img src="Images/Delivery1.jpg"  align="center" height="400" width="1000"></p>
 *Click on image to view good quality image*
 
-Code to get above images:
+
+**Code to get above images:**
 ```python
 // 1. Add a 2nd layer group for the tectonic plate data.
 let allEarthquakes = new L.LayerGroup();
@@ -65,6 +66,7 @@ Added color code and legend for magnitude higher than 6
 <p align="center"> <img src="Images/Delivery2.jpg"  align="center" height="400" width="1000"></p>
 *Click on image to view good quality image*
 
+**Code**
 ```Python
 // 1. Add a 2nd layer group for the tectonic plate data.
 ...
@@ -158,9 +160,10 @@ majorEarthquakes.addTo(map);
 ### Deliverable 3: Add an Additional Map
 Added addtional Dark/Night view layer
 
-<p align="center"> <img src="Images/Dark.jpg"  align="center" height="400" width="1000"></p>
+<p align="center"> <img src="Images/Delivery3.jpg"  align="center" height="400" width="1000"></p>
 *Click on image to view good quality image*
 
+**Code**
 ```python
 let dark = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/dark-v9/tiles/{z}/{x}/{y}?access_token={accessToken}', {
 	attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -175,3 +178,10 @@ let baseMaps = {
    Dark: dark 
 };
 ```
+
+## Summary
+A quick overview of all the functionality 
+<p align="center"> <img src="Images/Animation.gif"  align="center" height="400" width="1000"></p>
+*Click on image to view good quality image*
+
+
